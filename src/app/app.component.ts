@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'main',
-  //templateUrl: './app.component.html',
-  template : '<h1> Asslama {{title}} dans angular',
+  selector: 'app-root',
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ODDO BHF';
+  title = 'MonProjetBankFront';
 }
